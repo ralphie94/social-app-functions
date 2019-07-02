@@ -7,10 +7,19 @@
              likeCount: 5,
              commentCount: 2
          }
+     ],
+     comments: [
+         {
+            userHandle: "user",
+            screamId: "1crpsliQRLqISV6V3Yvt",
+            body: "nice scream man!",
+            createdAt: "2019-06-29T08:04:07.250Z"
+         }
      ]
 };
 
 const userDetails = {
+    // Redux data
     credentials: {
         userId: "MQsek5Ll4xRlyyq1kYBkRs2ohhg1",
         email: "new2@email.com",
