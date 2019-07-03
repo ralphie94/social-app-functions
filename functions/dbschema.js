@@ -15,7 +15,17 @@
             body: "nice scream man!",
             createdAt: "2019-06-29T08:04:07.250Z"
          }
-     ]
+     ],
+     notifications: [
+        {
+          recipient: 'user',
+          sender: 'john',
+          read: 'true | false',
+          screamId: '1crpsliQRLqISV6V3Yvt',
+          type: 'like | comment',
+          createdAt: '2019-07-02T01:32:07.303Z'
+        }
+      ]
 };
 
 const userDetails = {
